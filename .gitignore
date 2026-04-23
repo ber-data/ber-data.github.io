@@ -1,0 +1,14 @@
+# Build output
+site/
+.cache/
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
