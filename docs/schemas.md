@@ -30,7 +30,7 @@ and issues.
 
 </section>
 
-<section class="section section--infrastructure" markdown>
+<section class="section section--modeling" markdown>
 
 ## BERtron Schema
 
@@ -43,36 +43,17 @@ query can return results spanning EMSL, ESS-DIVE, JGI, KBase, and NMDC.
 
 -   [![BERtron schema](assets/images/schema.png)](https://ber-data.github.io/bertron-schema/)
 
-    [__BERtron schema__](https://ber-data.github.io/bertron-schema/)
+    __BERtron schema__
 
-    [:material-github: Repository](https://github.com/ber-data/bertron-schema)
+    [:material-book-open-variant: Docs](https://ber-data.github.io/bertron-schema/){ .card-btn }
+    [:material-github: Code](https://github.com/ber-data/bertron-schema){ .card-btn }
+    {: .card-links }
 
 </div>
 
 </section>
 
 <section class="section section--modeling" markdown>
-
-## LAMBDA
-
-LAMBDA is a LinkML schema developed within the BER community to capture
-dataset-level metadata in a shape that supports harmonization across
-partner lakehouses. It focuses on the common descriptors needed to connect
-experiments, samples, and analyses regardless of the originating resource.
-
-<div class="grid cards lakehouses" markdown>
-
--   [![LAMBDA schema](assets/images/schema.png)](https://lambda-ber.github.io/lambda-ber-schema/)
-
-    [__LAMBDA schema__](https://lambda-ber.github.io/lambda-ber-schema/)
-
-    [:material-github: Repository](https://github.com/lambda-ber/lambda-ber-schema)
-
-</div>
-
-</section>
-
-<section class="section section--bertron" markdown>
 
 ## KBase Schemas
 
@@ -89,21 +70,25 @@ attribution, reproducibility, and credit across collaborative BER projects.
 
 -   [![KBase CDM schema](assets/images/partners/kbase.png)](https://kbase.github.io/cdm-schema/)
 
-    [__KBase CDM schema__](https://kbase.github.io/cdm-schema/)
+    __KBase CDM schema__
 
-    [:material-github: Repository](https://github.com/kbase/cdm-schema)
+    [:material-book-open-variant: Docs](https://kbase.github.io/cdm-schema/){ .card-btn }
+    [:material-github: Code](https://github.com/kbase/cdm-schema){ .card-btn }
+    {: .card-links }
 
 -   [![KBase CRediT metadata schema](assets/images/partners/kbase.png)](https://www.kbase.us/news/kbase-credit-metadata-schema/)
 
-    [__KBase CRediT metadata schema__](https://www.kbase.us/news/kbase-credit-metadata-schema/)
+    __KBase CRediT metadata schema__
 
-    [:material-github: Repository](https://github.com/kbase/credit_engine)
+    [:material-book-open-variant: Docs](https://www.kbase.us/news/kbase-credit-metadata-schema/){ .card-btn }
+    [:material-github: Code](https://github.com/kbase/credit_engine){ .card-btn }
+    {: .card-links }
 
 </div>
 
 </section>
 
-<section class="section section--infrastructure" markdown>
+<section class="section section--bertron" markdown>
 
 ## NMDC Schema
 
@@ -127,15 +112,17 @@ This schema is organized into two modules:
 
 -   [![NMDC schema](assets/images/partners/nmdc.png)](https://microbiomedata.github.io/nmdc-schema/)
 
-    [__NMDC schema__](https://microbiomedata.github.io/nmdc-schema/)
+    __NMDC schema__
 
-    [:material-github: Repository](https://github.com/microbiomedata/nmdc-schema)
+    [:material-book-open-variant: Docs](https://microbiomedata.github.io/nmdc-schema/){ .card-btn }
+    [:material-github: Code](https://github.com/microbiomedata/nmdc-schema){ .card-btn }
+    {: .card-links }
 
 </div>
 
 </section>
 
-<section class="section section--modeling" markdown>
+<section class="section section--infrastructure" markdown>
 
 ## BASIN-3D
 
@@ -149,9 +136,34 @@ researchers a unified view over sources like ESS-DIVE, USGS, and EPA.
 
 -   [![BASIN-3D](assets/images/schema.png)](https://basin3d.readthedocs.io/en/stable/intro.html)
 
-    [__BASIN-3D__](https://basin3d.readthedocs.io/en/stable/intro.html)
+    __BASIN-3D__
 
-    [:material-github: Repository](https://github.com/BASIN-3D/basin3d)
+    [:material-book-open-variant: Docs](https://basin3d.readthedocs.io/en/stable/intro.html){ .card-btn }
+    [:material-github: Code](https://github.com/BASIN-3D/basin3d){ .card-btn }
+    {: .card-links }
+
+</div>
+
+</section>
+
+<section class="section section--modeling" markdown>
+
+## LAMBDA
+
+LAMBDA is a LinkML schema developed within the BER community to capture
+dataset-level metadata in a shape that supports harmonization across
+partner lakehouses. It focuses on the common descriptors needed to connect
+experiments, samples, and analyses regardless of the originating resource.
+
+<div class="grid cards lakehouses" markdown>
+
+-   [![LAMBDA schema](assets/images/schema.png)](https://lambda-ber.github.io/lambda-ber-schema/)
+
+    __LAMBDA schema__
+
+    [:material-book-open-variant: Docs](https://lambda-ber.github.io/lambda-ber-schema/){ .card-btn }
+    [:material-github: Code](https://github.com/lambda-ber/lambda-ber-schema){ .card-btn }
+    {: .card-links }
 
 </div>
 

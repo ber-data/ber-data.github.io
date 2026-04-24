@@ -5,7 +5,6 @@ assets arrive, drop them in and remove them from this list.
 
 ## Root `docs/assets/images/` — still missing
 
-- `lakehouse.png` — hero/header background (referenced by `stylesheets/extra.css`)
 - `logo.svg` — site logo (referenced by `mkdocs.yml: theme.logo`)
 - `favicon.png` — favicon (referenced by `mkdocs.yml: theme.favicon`)
 - `pyramid.png` — welcome-section illustration (optional, not yet referenced)

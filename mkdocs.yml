@@ -100,6 +100,5 @@ plugins:
 nav:
   - Home: index.md
   - Schemas: schemas.md
-  - Projects: projects.md
   - Blog:
     - blog/index.md
