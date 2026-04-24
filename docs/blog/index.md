@@ -1,8 +1,9 @@
 ---
-title: Blog
-description: News, releases, and announcements from the BER Data community.
+title: Crossings
+description: News, releases, and announcements from the BRIDGE community.
 ---
 
-# Blog
+# Crossings
 
-News, releases, and announcements from the BER Data community.
+News, releases, and announcements from the BRIDGE community — the
+federated BER data lakehouse, its schemas, and the tools that connect them.

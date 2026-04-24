@@ -87,6 +87,7 @@ plugins:
       minify_css: true
   - blog:
       blog_dir: blog
+      blog_name: Crossings
       post_date_format: medium
       post_url_format: "{date}/{slug}"
       archive: true
@@ -102,5 +103,5 @@ plugins:
 nav:
   - Home: index.md
   - Data Modeling: schemas.md
-  - Blog:
+  - Crossings:
     - blog/index.md
