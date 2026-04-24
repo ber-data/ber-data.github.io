@@ -1,5 +1,25 @@
 /* BER Data Lakehouse — section tints echoing the retired infosite palette. */
 
+/* Header + tabs: dark purple to match the Data Lakehouse section. */
+.md-header,
+.md-tabs {
+  background-color: #352F44;
+  color: #fff;
+}
+.md-header a,
+.md-header__topic,
+.md-header__title,
+.md-tabs a {
+  color: #fff;
+}
+.md-search__input {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+.md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 /* Hero banner (top of home page). */
 .hero {
   position: relative;
@@ -28,6 +48,22 @@
   font-size: 1.2rem;
   max-width: 50ch;
   margin: 0 auto 1rem;
+}
+
+/* Uniform look for all hero buttons, regardless of .md-button--primary. */
+.hero .md-button,
+.hero .md-button--primary {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.hero .md-button:hover,
+.hero .md-button:focus,
+.hero .md-button--primary:hover,
+.hero .md-button--primary:focus {
+  background-color: #fff;
+  color: #352F44 !important;
+  border-color: #fff;
 }
 
 .section--funding {
