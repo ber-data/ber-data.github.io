@@ -1,0 +1,136 @@
+/* BER Data Lakehouse — section tints echoing the retired infosite palette. */
+
+/* Hero banner (top of home page). */
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 30vh;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background: #4A3F6B center / cover no-repeat;
+  background-image: url("../assets/images/lakehouse.png");
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 3.2rem;
+  margin: 0.2em 0;
+}
+
+.hero .hero-tagline {
+  font-size: 1.2rem;
+  max-width: 50ch;
+  margin: 0 auto 1rem;
+}
+
+/* Colored content sections, one per logical block. */
+.section {
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.section--infrastructure {
+  background: #352F44;
+  color: #fff;
+}
+.section--infrastructure a,
+.section--infrastructure h2,
+.section--infrastructure h3 {
+  color: #fff;
+}
+.section--infrastructure a:hover {
+  color: #c8e6ff;
+}
+
+.section--bertron {
+  background: #D3CDE2;
+  color: #000;
+}
+.section--bertron a {
+  color: #352F44;
+}
+
+.section--contribs {
+  background: #FAF0E6;
+  color: #000;
+}
+.section--contribs a {
+  color: #352F44;
+}
+
+/* Make grid cards readable when nested inside a colored section. */
+.section .grid.cards > ul > li,
+.section .grid.cards > ol > li {
+  background: rgba(255, 255, 255, 0.92);
+  color: #111;
+  border: none;
+}
+.section--contribs .grid.cards > ul > li,
+.section--contribs .grid.cards > ol > li {
+  background: #fff;
+}
+
+/* Tighten staff/partner card visuals. */
+.grid.cards img {
+  display: block;
+  margin: 0 auto 0.5rem;
+  border-radius: 20%;
+  max-width: 160px;
+}
+
+/* Compact staff grid: roughly half-size cards with smaller portraits. */
+.grid.cards.staff-compact {
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.5rem;
+}
+.grid.cards.staff-compact > ul,
+.grid.cards.staff-compact > ol {
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.5rem;
+}
+.grid.cards.staff-compact > ul > li,
+.grid.cards.staff-compact > ol > li {
+  padding: 0.5rem;
+  font-size: 0.72rem;
+  line-height: 1.2;
+}
+.grid.cards.staff-compact img {
+  max-width: 80px;
+  margin: 0 auto 0.25rem;
+}
+/* Partner cards: ~3/4-scale grid with a uniform logo slot. */
+.grid.cards.partner-logo {
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 0.75rem;
+}
+.grid.cards.partner-logo > ul,
+.grid.cards.partner-logo > ol {
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 0.75rem;
+}
+.grid.cards.partner-logo > ul > li,
+.grid.cards.partner-logo > ol > li {
+  padding: 0.75rem;
+}
+
+.grid.cards.partner-logo img {
+  border-radius: 0;
+  width: 100%;
+  height: 90px;
+  max-width: none;
+  object-fit: contain;
+}

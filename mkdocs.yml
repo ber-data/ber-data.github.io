@@ -4,6 +4,7 @@ site_url: https://ber-data.github.io/
 repo_url: https://github.com/ber-data
 repo_name: ber-data
 edit_uri: edit/main/docs/
+copyright: "© 2025 BER Data Lakehouse"
 
 theme:
   name: material
@@ -11,8 +12,6 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - navigation.footer
@@ -24,15 +23,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -46,6 +45,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/ber-data
   generator: false
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
@@ -98,6 +100,5 @@ plugins:
 nav:
   - Home: index.md
   - Projects: projects.md
-  - Team: team.md
   - Blog:
     - blog/index.md

@@ -5,46 +5,215 @@ hide:
   - toc
 ---
 
-# BER Data
+<div class="hero" markdown>
 
+# BER Data Lakehouse
+
+<p class="hero-tagline">
 Open data, software, and schemas for the U.S. Department of Energy's
 Biological and Environmental Research (BER) community.
+</p>
 
-[Browse projects :material-arrow-right:](projects.md){ .md-button .md-button--primary }
-[Meet the team :material-arrow-right:](team.md){ .md-button }
-
----
-
-## What we do
-
-<div class="grid cards" markdown>
-
--   :material-database-outline: __Data standards__
-
-    ---
-
-    We develop and maintain interoperable data schemas and vocabularies for
-    environmental and biological research data.
-
--   :material-code-braces: __Open-source tooling__
-
-    ---
-
-    Libraries, CLIs, and services that make FAIR data practices routine for
-    BER-funded projects.
-
--   :material-account-group-outline: __Community__
-
-    ---
-
-    A cross-project working group collaborating on shared infrastructure,
-    documentation, and best practices.
-
--   :material-newspaper-variant-outline: __Updates__
-
-    ---
-
-    Follow along with releases, RFCs, and community calls on our
-    [blog](blog/index.md).
+[Architecture :material-arrow-down:](#data-lakehouse-architecture){ .md-button .md-button--primary }
+[Collaboration :material-arrow-down:](#national-lab-collaboration){ .md-button }
+[Team :material-arrow-down:](#team){ .md-button }
 
 </div>
+
+## Welcome
+
+Biological sciences are entering a new era — one shaped by data and powered by
+strategic national resources like BER. These resources do more than store
+scientific information; they enable discovery by collecting, transforming, and
+organizing vast volumes of data. A single experimental file may be accompanied
+by hundreds of thousands to millions of pieces of metadata — contextual details
+essential for future use. To fully realize the benefits of Artificial
+Intelligence (AI) in this space, we must go beyond simply accumulating data.
+We need purposeful, high-quality data — curated and annotated at the time of
+collection but structured to support future insight and innovation. This
+requires smart, flexible data systems capable of linking diverse data types
+across multiple institutions.
+
+Investing in this curated data infrastructure is not just a technical choice,
+it is a strategic imperative — one that lays the groundwork for predictive
+science, accelerates discovery, and ensures the U.S. remains at the forefront
+of scientific innovation.
+
+<section class="section section--infrastructure" markdown>
+
+## Data Lakehouse Architecture
+
+The data lakehouse architecture pattern was first described in 2021
+([source PDF](https://people.eecs.berkeley.edu/~matei/papers/2021/cidr_lakehouse.pdf)).
+
+![Data lakehouse architecture diagram](assets/images/ui_arch.png)
+
+!!! note
+    System in development: architecture is subject to change.
+
+Solving today's grand scientific challenges requires more than biology — it
+demands interdisciplinary innovation in computation and data science. Yet,
+many of our existing resources are designed with biological research in mind,
+not computational discovery. While datasets may share high-level descriptors
+like PI, project, or resource, and feature rich annotations from tools like
+GO, ChEBI, or KEGG, the connective tissue — samples, analyses, metadata —
+differs dramatically across platforms.
+
+At JGI, for example, data is organized by PI and proposal, streamlining access
+for individual users but making it harder to search by organism or taxa. In
+contrast, NMDC builds around physical samples, EMSL emphasizes instrumentation,
+and ESS-DIVE focuses on project datasets. This fragmentation poses a major
+roadblock to scientific discovery — especially for AI systems that thrive on
+pattern recognition across diverse, structured datasets.
+
+To unlock the full potential of our data, we must reimagine our architecture.
+We need new data structures and algorithms capable of linking billions of data
+points across modalities, disciplines, and institutions — making science not
+just accessible, but truly interoperable and discoverable at scale.
+
+</section>
+
+<section class="section section--bertron" markdown>
+
+## National Lab Collaboration
+
+![National lab collaboration](assets/images/collab.png)
+
+This architecture pattern enables all participants to contribute their own
+compute and storage infrastructure. Implementation of the same technology
+stack and collaborative management of the data catalog allows for a logically
+unified view of distributed assets.
+
+Explore the variety of data available from EMSL, ESS-DIVE, JGI, KBase and NMDC
+by accessing our code repos, or get a sneak peek at how this data is applied
+by checking out the interactive map.
+
+[:octicons-mark-github-16: Code repos](https://github.com/ber-data){ .md-button .md-button--primary }
+[:material-map: Sneak peek (BERtron map)](https://ber-data.github.io/bertron/map/index.html){ .md-button }
+
+![Bertron map preview](assets/images/map.png)
+
+</section>
+
+<section class="section section--contribs" markdown>
+
+## Team
+
+Representatives from these institutions have committed time to building the
+global search resource and data lakehouse.
+
+### Partners
+
+<div class="grid cards partner-logo" markdown>
+
+-   [![JGI](assets/images/partners/jgi.png)](https://jgi.doe.gov/)
+
+    [__JGI__](https://jgi.doe.gov/)
+
+-   [![ESS-DIVE](assets/images/partners/ess-dive.png)](https://ess-dive.lbl.gov/)
+
+    [__ESS-DIVE__](https://ess-dive.lbl.gov/)
+
+-   [![NMDC](assets/images/partners/nmdc.png)](https://microbiomedata.org/)
+
+    [__NMDC__](https://microbiomedata.org/)
+
+-   [![EMSL](assets/images/partners/emsl.svg)](https://www.emsl.pnnl.gov/)
+
+    [__EMSL__](https://www.emsl.pnnl.gov/)
+
+-   [![KBase](assets/images/partners/kbase.png)](https://www.kbase.us/)
+
+    [__KBase__](https://www.kbase.us/)
+
+</div>
+
+### Staff
+
+<div class="grid cards staff-compact" markdown>
+
+-   __Valerie Skye__
+
+    JGI, BRIDGE
+
+-   ![Kjiersten Fagnan](assets/images/staff/fagnan.jpg)
+
+    __Kjiersten Fagnan__
+
+    JGI
+
+-   __Danielle Christianson__
+
+    ESS-DIVE, BRIDGE
+
+-   ![Shreyas Cholia](assets/images/staff/cholia.png)
+
+    __Shreyas Cholia__
+
+    ESS-DIVE, NMDC
+
+-   ![Alicia Clum](assets/images/staff/clum.jpg)
+
+    __Alicia Clum__
+
+    NMDC
+
+-   ![Sierra Moxon](assets/images/staff/moxon.png)
+
+    __Sierra Moxon__
+
+    NMDC, BRIDGE
+
+-   ![Makena Dettmann](assets/images/staff/dettmann.jpeg)
+
+    __Makena Dettmann__
+
+    EMSL
+
+-   ![James Carr](assets/images/staff/carr.jpg)
+
+    __James Carr__
+
+    EMSL
+
+-   ![Montana Smith](assets/images/staff/smith.jpg)
+
+    __Montana Smith__
+
+    EMSL, NMDC, BRIDGE
+
+-   __Conrad Mearns__
+
+    EMSL, BRIDGE
+
+-   ![Ryan Ly](assets/images/staff/ly.png)
+
+    __Ryan Ly__
+
+    JAMO, BRIDGE
+
+-   ![AJ Ireland](assets/images/staff/ireland.png)
+
+    __AJ Ireland__
+
+    KBase, BRIDGE
+
+-   ![Gazi Mahmud](assets/images/staff/mahmud.jpg)
+
+    __Gazi Mahmud__
+
+    KBase
+
+-   ![Elisha Wood-Charlson](assets/images/staff/wood-charlson.jpg)
+
+    __Elisha Wood-Charlson__
+
+    KBase
+
+</div>
+
+!!! note "Join us"
+    Contributors are welcome. Open an issue or PR on any of our
+    [repositories](https://github.com/ber-data).
+
+</section>
