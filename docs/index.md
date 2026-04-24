@@ -46,7 +46,6 @@ of scientific innovation.
 The data lakehouse architecture pattern was first described in 2021
 ([source PDF](https://people.eecs.berkeley.edu/~matei/papers/2021/cidr_lakehouse.pdf)).
 
-![Data lakehouse architecture diagram](assets/images/ui_arch.png)
 
 !!! note
     System in development: architecture is subject to change.
@@ -70,6 +69,51 @@ To unlock the full potential of our data, we must reimagine our architecture.
 We need new data structures and algorithms capable of linking billions of data
 points across modalities, disciplines, and institutions — making science not
 just accessible, but truly interoperable and discoverable at scale.
+
+<div class="grid cards lakehouses" markdown>
+
+-   [![J-BERDL](assets/images/partners/jgi.png)](https://lakehouse-poc.jgi.lbl.gov/)
+
+    [__J-BERDL__](https://lakehouse-poc.jgi.lbl.gov/)
+
+-   [![K-BERDL](assets/images/partners/kbase.png)](https://hub.berdl.kbase.us/)
+
+    [__K-BERDL__](https://hub.berdl.kbase.us/)
+
+</div>
+
+</section>
+
+<section class="section section--modeling" markdown>
+
+## Data Modeling
+
+Creating connections across projects. Each BER resource collects, stores,
+and aggregates vast amounts of scientific data, with potentially millions of
+pieces of metadata describing the context of each experiment. Well-defined
+formats and community standards (GO, ENVO, GOLD, ChEBI, MIxS, and others)
+exist, but every resource has historically managed its metadata
+independently with its own models and tools.
+
+BRIDGE is assembling a Data Stewards committee with representatives from
+each partner organization. The Data Stewards create and maintain LinkML
+models for every data source registered in their respective lakehouses,
+building on the foundation of existing schemas. Each lakehouse maintains a
+data directory describing its holdings, and BRIDGE operates a central
+registry that indexes across lakehouses so scientists can discover what
+data exists and where it resides.
+
+<div class="grid cards lakehouses" markdown>
+
+-   [![Schemas](assets/images/schema.png)](https://github.com/ber-data)
+
+    [__Schemas__](https://github.com/ber-data)
+
+-   [![Registry](assets/images/registry.png)](https://github.com/ber-data)
+
+    [__Registry__](https://github.com/ber-data)
+
+</div>
 
 </section>
 
@@ -220,6 +264,14 @@ global search resource and data lakehouse.
     __Elisha Wood-Charlson__
 
     KBase
+
+-   __Georg Rath__
+
+    JGI, BRIDGE
+
+-   __Deanna Beatty__
+
+    JGI, BRIDGE
 
 </div>
 
