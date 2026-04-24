@@ -91,9 +91,13 @@ attribution, reproducibility, and credit across collaborative BER projects.
 
     [__KBase CDM schema__](https://kbase.github.io/cdm-schema/)
 
+    [:material-github: Repository](https://github.com/kbase/cdm-schema)
+
 -   [![KBase CRediT metadata schema](assets/images/partners/kbase.png)](https://www.kbase.us/news/kbase-credit-metadata-schema/)
 
     [__KBase CRediT metadata schema__](https://www.kbase.us/news/kbase-credit-metadata-schema/)
+
+    [:material-github: Repository](https://github.com/kbase/credit_engine)
 
 </div>
 
@@ -125,6 +129,8 @@ This schema is organized into two modules:
 
     [__NMDC schema__](https://microbiomedata.github.io/nmdc-schema/)
 
+    [:material-github: Repository](https://github.com/microbiomedata/nmdc-schema)
+
 </div>
 
 </section>
@@ -144,6 +150,8 @@ researchers a unified view over sources like ESS-DIVE, USGS, and EPA.
 -   [![BASIN-3D](assets/images/schema.png)](https://basin3d.readthedocs.io/en/stable/intro.html)
 
     [__BASIN-3D__](https://basin3d.readthedocs.io/en/stable/intro.html)
+
+    [:material-github: Repository](https://github.com/BASIN-3D/basin3d)
 
 </div>
 
