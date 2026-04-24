@@ -7,7 +7,7 @@ hide:
 
 <div class="hero" markdown>
 
-# BER Data Lakehouse
+# BRIDGE: A Scientific Data Ecosystem
 
 <p class="hero-tagline">
 Open data, software, and schemas for the U.S. Department of Energy's
@@ -19,6 +19,8 @@ Biological and Environmental Research (BER) community.
 [Team :material-arrow-down:](#team){ .md-button }
 
 </div>
+
+<section class="section section--welcome" markdown>
 
 ## Welcome
 
@@ -39,9 +41,20 @@ it is a strategic imperative — one that lays the groundwork for predictive
 science, accelerates discovery, and ensures the U.S. remains at the forefront
 of scientific innovation.
 
+For more information about the research programs and data centers supported
+by DOE, see:
+
+<div class="grid cards doe-ber" markdown>
+
+-   [![DOE BER research programs and data centers](assets/images/DOEBER.png)](https://portal.nersc.gov/cfs/m3408/nmdc-sfas-brcs/browser.html)
+
+</div>
+
+</section>
+
 <section class="section section--infrastructure" markdown>
 
-## Data Lakehouse Architecture
+## Data Lakehouse
 
 The data lakehouse architecture pattern was first described in 2021
 ([source PDF](https://people.eecs.berkeley.edu/~matei/papers/2021/cidr_lakehouse.pdf)).
@@ -69,6 +82,7 @@ To unlock the full potential of our data, we must reimagine our architecture.
 We need new data structures and algorithms capable of linking billions of data
 points across modalities, disciplines, and institutions — making science not
 just accessible, but truly interoperable and discoverable at scale.
+
 
 <div class="grid cards lakehouses" markdown>
 
@@ -105,9 +119,9 @@ data exists and where it resides.
 
 <div class="grid cards lakehouses" markdown>
 
--   [![Schemas](assets/images/schema.png)](https://github.com/ber-data)
+-   [![Schemas](assets/images/schema.png)](schemas.md)
 
-    [__Schemas__](https://github.com/ber-data)
+    [__Schemas__](schemas.md)
 
 -   [![Registry](assets/images/registry.png)](https://github.com/ber-data)
 

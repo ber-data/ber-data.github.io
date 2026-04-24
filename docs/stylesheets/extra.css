@@ -34,8 +34,9 @@
 .section--funding {
   padding: 1.5rem 2rem;
   text-align: center;
-  background: #ECEAE6;
-  color: #2a2a2a;
+  background: transparent;
+  box-shadow: none;
+  color: inherit;
 }
 
 .funding-attribution {
@@ -95,6 +96,14 @@
   color: #000;
 }
 .section--bertron a {
+  color: #352F44;
+}
+
+.section--welcome {
+  background: #FAF0E6;
+  color: #000;
+}
+.section--welcome a {
   color: #352F44;
 }
 
@@ -179,6 +188,30 @@
   height: 90px;
   max-width: none;
   object-fit: contain;
+}
+
+/* DOE BER banner card: single wide card showcasing the image, left-aligned. */
+.grid.cards.doe-ber {
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  max-width: 720px;
+  margin: 1rem 0 0;
+}
+.grid.cards.doe-ber > ul,
+.grid.cards.doe-ber > ol {
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+.grid.cards.doe-ber > ul > li,
+.grid.cards.doe-ber > ol > li {
+  padding: 0.75rem;
+  text-align: left;
+}
+.grid.cards.doe-ber img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 0;
+  border-radius: 0;
 }
 
 /* Lakehouse cards: ~1/3 the size of default grid cards. */
