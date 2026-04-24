@@ -77,21 +77,32 @@ just accessible, but truly interoperable and discoverable at scale.
 
 ## National Lab Collaboration
 
-![National lab collaboration](assets/images/collab.png)
+<div class="grid cards partner-logo" markdown>
 
+-   [![LBNL](assets/images/labs/lbnl.png)](https://www.lbl.gov/)
+
+    [__LBNL__](https://www.lbl.gov/)
+
+-   [![PNNL](assets/images/labs/pnnl.png)](https://www.pnnl.gov/)
+
+    [__PNNL__](https://www.pnnl.gov/)
+
+-   [![ORNL](assets/images/labs/ornl.png)](https://www.ornl.gov/)
+
+    [__ORNL__](https://www.ornl.gov/)
+
+-   [![ANL](assets/images/labs/anl.png)](https://www.anl.gov/)
+
+    [__ANL__](https://www.anl.gov/)
+
+</div>
 This architecture pattern enables all participants to contribute their own
 compute and storage infrastructure. Implementation of the same technology
 stack and collaborative management of the data catalog allows for a logically
 unified view of distributed assets.
 
 Explore the variety of data available from EMSL, ESS-DIVE, JGI, KBase and NMDC
-by accessing our code repos, or get a sneak peek at how this data is applied
-by checking out the interactive map.
-
-[:octicons-mark-github-16: Code repos](https://github.com/ber-data){ .md-button .md-button--primary }
-[:material-map: Sneak peek (BERtron map)](https://ber-data.github.io/bertron/map/index.html){ .md-button }
-
-![Bertron map preview](assets/images/map.png)
+by accessing our code repos, or sites.
 
 </section>
 
@@ -215,5 +226,16 @@ global search resource and data lakehouse.
 !!! note "Join us"
     Contributors are welcome. Open an issue or PR on any of our
     [repositories](https://github.com/ber-data).
+
+</section>
+
+<section class="section section--funding" markdown>
+
+<p class="funding-attribution">
+  Supported by
+  <a href="https://www.energy.gov/science/ber/biological-and-environmental-research">
+    <img src="assets/images/doe.png" alt="U.S. Department of Energy" class="doe-logo">
+  </a>
+</p>
 
 </section>

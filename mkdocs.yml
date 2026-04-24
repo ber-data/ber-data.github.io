@@ -38,7 +38,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   favicon: assets/favicon.png
-  logo: assets/logo.svg
+  logo: assets/images/bridge-logo.svg
 
 extra:
   social:

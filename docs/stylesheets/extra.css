@@ -31,6 +31,26 @@
   margin: 0 auto 1rem;
 }
 
+.section--funding {
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.funding-attribution {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.funding-attribution .doe-logo {
+  height: 72px;
+  width: auto;
+  vertical-align: middle;
+}
+
 /* Colored content sections, one per logical block. */
 .section {
   padding: 2rem;
