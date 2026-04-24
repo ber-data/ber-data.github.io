@@ -1,5 +1,5 @@
 ---
-title: Schemas
+title: Data Modeling
 hide:
   - navigation
   - toc
@@ -7,7 +7,7 @@ hide:
 
 <div class="hero" markdown>
 
-# Schemas
+# Data Modeling
 
 <p class="hero-tagline">
 LinkML-based data models that power interoperability across the BER data
@@ -30,7 +30,7 @@ and issues.
 
 </section>
 
-<section class="section section--modeling" markdown>
+<section class="section section--infrastructure" markdown>
 
 ## BERtron Schema
 

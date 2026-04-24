@@ -1,4 +1,4 @@
-site_name: BER Data
+site_name: BRIDGE
 site_description: Landing page for the BER Data GitHub organization
 site_url: https://ber-data.github.io/
 repo_url: https://github.com/ber-data
@@ -12,6 +12,8 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - navigation.footer
@@ -99,6 +101,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - Schemas: schemas.md
+  - Data Modeling: schemas.md
   - Blog:
     - blog/index.md

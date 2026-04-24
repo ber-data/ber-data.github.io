@@ -14,7 +14,8 @@ Open data, software, and schemas for the U.S. Department of Energy's
 Biological and Environmental Research (BER) community.
 </p>
 
-[Architecture :material-arrow-down:](#data-lakehouse-architecture){ .md-button .md-button--primary }
+[Data Lakehouse :material-arrow-down:](#data-lakehouse){ .md-button .md-button--primary }
+[Data Modeling :material-arrow-down:](#data-modeling){ .md-button }
 [Collaboration :material-arrow-down:](#national-lab-collaboration){ .md-button }
 [Team :material-arrow-down:](#team){ .md-button }
 
@@ -22,7 +23,7 @@ Biological and Environmental Research (BER) community.
 
 <section class="section section--welcome" markdown>
 
-## Welcome
+## Welcome :wave:
 
 Biological sciences are entering a new era — one shaped by data and powered by
 strategic national resources like BER. These resources do more than store

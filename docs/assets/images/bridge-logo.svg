@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <!-- Blue accent square -->
-  <rect x="160" y="240" width="312" height="232" rx="8" ry="8" fill="#2E7FB8"/>
-  <!-- Dark green circle -->
-  <circle cx="216" cy="216" r="176" fill="#1F4B2A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 40 352 352" width="512" height="512">
+  <!-- Deep teal circle -->
+  <circle cx="216" cy="216" r="176" fill="#1F5F6F"/>
   <!-- Suspension bridge (white) -->
   <g fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
     <!-- Deck -->
