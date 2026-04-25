@@ -40,7 +40,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   favicon: assets/favicon.png
-  logo: assets/images/bridge-logo.svg
+  logo: assets/images/bridge-logo.png
 
 extra:
   social:
@@ -103,5 +103,6 @@ plugins:
 nav:
   - Home: index.md
   - Data Modeling: schemas.md
+  - Terminology: terminology.md
   - Crossings:
     - blog/index.md

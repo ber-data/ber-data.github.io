@@ -43,7 +43,8 @@ science, accelerates discovery, and ensures the U.S. remains at the forefront
 of scientific innovation.
 
 For more information about the research programs and data centers supported
-by DOE, see:
+by DOE, click below.  It is likely that this list is currently incomplete, 
+to add a resource or otherwise edit this list, please contact `smoxon @ lbl.gov` - feedback welcome!
 
 <div class="grid cards doe-ber" markdown>
 

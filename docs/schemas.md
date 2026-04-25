@@ -146,6 +146,29 @@ researchers a unified view over sources like ESS-DIVE, USGS, and EPA.
 
 </section>
 
+<section class="section section--bertron" markdown>
+
+## Bridge Schemas
+
+Bridge Schemas are LinkML schemas that map and translate between related data
+models, enabling interoperability across BER partner resources. They provide
+explicit crosswalks that connect overlapping concepts in different schemas so
+that data described in one model can be understood and used in the context of
+another.
+
+<div class="grid cards lakehouses" markdown>
+
+-   [![Bridge Schemas](assets/images/schema.png)](https://github.com/cmungall/bridge-schemas)
+
+    __Bridge Schemas__
+
+    [:material-github: Code](https://github.com/cmungall/bridge-schemas){ .card-btn }
+    {: .card-links }
+
+</div>
+
+</section>
+
 <section class="section section--modeling" markdown>
 
 ## LAMBDA
